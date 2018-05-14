@@ -1,0 +1,12 @@
+.empty {
+  &:before {
+    content: 'Please enter the text :)';
+    position: absolute;
+    color: darkred;
+    top: 15%;
+    left: 38%;
+    height: 100%;
+    opacity: 0.7;
+    //display: none;
+  }
+}

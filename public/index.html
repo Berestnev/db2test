@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="bundle.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <script
+            src="http://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+    <script src="scripts/list.js"></script>
+    <script src="scripts/main.js"></script>
+</head>
+<body>
+    <section class="page-wrapper">
+        <div class="todo-wrapper">
+            <div class="todo-container">
+                <header class="todo-container__header">
+                    <h1>ToDo List</h1>
+                </header>
+                <div class="todo-container__input">
+                    <div class="task-count">
+                        <span class="task-text">New task</span>
+                        <span class="task-number">
+                            №
+                        </span>
+                        <span class="task-digit">
+
+                        </span>
+                    </div>
+                    <input type="text" name="todo-text" id="task-description" placeholder="Enter task description...">
+                    <button class="task-add" type="button">
+                        +
+                    </button>
+                </div>
+                <div class="todo-container__list" id="notes-list">
+
+                    <header class="todo-container__list--header">
+                        <span class="header-number sort" data-sort="number">
+                            №
+                            <i class="fas fa-sort"></i>
+                        </span>
+                        <span class="header-description sort" data-sort="description">DESCRIPTION
+                            <i class="fas fa-sort"></i>
+                            </span>
+                        <p class="header-done"> DONE?</p>
+                    </header>
+                    <div class="todo-container__list--notes list">
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+</body>
+</html>
